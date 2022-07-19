@@ -5,7 +5,7 @@
       shell: rm -rf ~/test4
 
     - name: pull
-      shell: git clone -b master https://github.com/Saumil343/test4.git
+      shell: git clone https://github.com/Saumil343/test4.git
       
     - name: start apache
       shell: sudo systemctl start httpd
