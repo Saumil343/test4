@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.36.60
+- hosts: web123
   tasks:
     - name: cleaning files
       shell: rm -rf ~/test4
