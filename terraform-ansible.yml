@@ -14,4 +14,4 @@
       shell: docker build -t saumil343/ansapp1 ~/test4/
       
     - name: docker run 
-      shell: docker run -it -d --name anssapp1 -p 3100:80 saumil343/ansapp1
+      shell: docker run -it -d --name ansapp1 -p 3100:80 saumil343/ansapp1
